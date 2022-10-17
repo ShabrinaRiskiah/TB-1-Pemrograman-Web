@@ -1,0 +1,244 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f8f8f8;
+}
+
+header {
+  position: fixed;
+  overflow: hidden;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  background-image: linear-gradient(90deg, #46074e 0%, rgba(25, 123, 208, 0.8) 100%);
+  justify-content: center;
+  align-items: center;
+  top: 0px;
+  gap: 20px;
+  z-index: 99;
+}
+
+.head-menu a {
+  padding: 10px 0;
+  width: 200px;
+  border: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  margin: 30px;
+  background: rgba(255, 255, 255, 0);
+  color: white;
+  outline: none;
+}
+
+.head-menu a::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 15px;
+}
+
+.iconPlaceHolder {
+  font-family: "FontAwesome";
+  font-weight: lighter;
+  font-style: normal;
+}
+
+.rectangle a {
+  background-color: #195395;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  padding: 10px 20px;
+  width: 150px;
+  height: 40px;
+  font-weight: lighter;
+  font-size: 13px;
+}
+
+.rectangle a {
+  color: white;
+}
+
+/* ----------------------------------------------Section1--------------------------------------------- */
+
+.headerpic-img {
+  width: 1200px;
+  position: relative;
+  display: flex;
+  margin-top: 80px;
+  height: 200px;
+  line-height: 43px;
+  background-image: url("headerpic.jpg"), linear-gradient( 90deg, #46074E 0%, rgba(25, 123, 208, 0) 100%);
+  background-position: left;
+}
+
+.section1 p {
+  position: absolute;
+  top: 180px;
+  left: 70px;
+  color: #FFFFFF;
+  font-size: 36px;
+  line-height: 43px;
+  text-align: left;
+  font-weight: bold;
+}
+
+/* ---------------------------------------------Section2---------------------------------------------- */
+
+.section2 {
+  margin: 80px 0;
+}
+
+.section-wrap {
+  margin: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-container {
+  width: 1000px;
+}
+
+.box {
+  position: relative;
+  display: inline-block;
+  width: 280px;
+  height: 158px;
+  margin: 20px;
+  background-image: linear-gradient( 90deg, #46074E 0%, rgba(25, 123, 208, 0) 100%);
+  margin-top: 20px 20px 0;
+}
+
+.box img {
+  border-radius: 6px;
+  position: absolute;
+  width: 280px;
+  height: 158px;
+  z-index: -1;
+}
+
+.box p {
+  position: absolute;
+  top: 100px;
+  left: 30px;
+  color: rgb(255, 255, 255, 0.8);
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.line {
+  position: absolute;
+  margin-left: 30px;
+  width: 250px;
+  height: 100px;
+  border-left: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+/* ------------------------------------------------------hr----------------------------------------------------- */
+
+hr {
+  width: 75%;
+  border-width: 1px;
+  border-color: rgba(0, 0, 0, 0.3);
+}
+
+/* ---------------------------------------------------------Section3------------------------------------------ */
+
+.hubungi-kami-title {
+  margin-bottom: 30px;
+  color: #4a4a4a;
+}
+
+.hubungi-kami-title p {
+  font-weight: bold;
+}
+
+.hubungi-kami-title h3 {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.section3 {
+  float: center;
+  width: 90%;
+  border: 1px solid #EAEAEA;
+  color: #4A4A4A;
+   font-family: Ubuntu;
+   font-size: 16px;
+   text-align: center;
+}
+
+br {
+  content: "";
+  margin: 4em;
+  display: block;
+  font-size: 24%;
+  outline: red;
+}
+
+
+.button {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.button-lokasi {
+  background-image: linear-gradient(
+    90deg,
+    #46074E 0.36%,
+    rgba(25, 123, 208, 0.8) 100%);
+  border: none;
+  border-radius: 22.5px;
+  width: 200px;
+  height: 45px;
+  color: #FFFFFF;
+   font-family: Ubuntu;
+   font-size: 15px;
+   line-height: 18px;
+
+}
+
+.button-lokasi:hover {
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
+}
+
+.button-kirim {
+  width: 200px;
+  height: 45px;
+  border: 1px solid #46074E;
+  border-radius: 22.5px;
+  margin: 20px;
+  color: #336195;
+   font-family: Ubuntu;
+   font-size: 15px;
+   line-height: 18px;
+}
+
+.button-kirim:hover {
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* --------------------------------------footer------------------------ */
+
+footer {
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  background-image: linear-gradient(
+    90deg,
+    #46074E 0%,
+    rgba(25, 123, 208, 0.8) 100%);
+  width: 100%;
+  height: 80px;
+  justify-content: center;
+  align-items: center;
+}
+
+footer p {
+  color: white;
+  font-size: 15px;
+}
